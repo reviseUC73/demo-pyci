@@ -22,16 +22,12 @@ class StatisticsTest(TestCase):
         # variance is 4, std.dev. is sqrt(2)
         data = [10.0, 14.0]
         self.assertEqual(2.0, stdev(data))
-#     def test_std_dev(self):
-#         "std is zero if all same"
-#         data = [10.0, 10.0, 10.0]
-#         self.assertEqual(0.0, stdev(data))
-#         self.assertEqual(2.0, variance([1, 2, 3, 4, 5]))
 
-#     def test_variance_single_value_is_zero(self):
-#         """variance of a singleton list should be zero"""
-#         self.assertEqual(0.0, variance([0.0]))
-#         self.assertEqual(0.0, variance([99.999]))
+
+    def test_variance_single_value_is_zero(self):
+        """variance of a singleton list should be zero"""
+        self.assertEqual(0.0, variance([0.0]))
+        self.assertEqual(0.0, variance([99.999]))
 
 
 if __name__ == '__main__':
