@@ -40,7 +40,6 @@ jobs:
         pytest
     - name: Test code coverage
       run: |
-        coverage 
         coverage run -m unittest test_statistics.py
     - name: Upload coverage report using Github Action
       uses: codecov/codecov-action@v3
