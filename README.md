@@ -1,5 +1,5 @@
 [![Unit Tests](https://github.com/reviseUC73/demo-pyci/actions/workflows/python-app.yml/badge.svg)](https://github.com/reviseUC73/demo-pyci/actions/workflows/python-app.yml)
-[![codecov](https://codecov.io/gh/bhokin/demo-pyci/branch/main/graph/badge.svg?token=C1JRNC4XM9)](https://codecov.io/gh/bhokin/demo-pyci)
+[![codecov](https://codecov.io/gh/reviseUC73/demo-pyci/branch/master/graph/badge.svg?token=7KHZNVO6N1)](https://codecov.io/gh/reviseUC73/demo-pyci)
 Continuous Integration Demo
 ============================
 
